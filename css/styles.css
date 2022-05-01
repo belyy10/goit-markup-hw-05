@@ -539,7 +539,9 @@ background-color: var(--accent-color)
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
-    transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function);
+    transition: color var(--transition-duration) var(--transition-timing-function), 
+    background-color var(--transition-duration) var(--transition-timing-function), 
+    box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
 .menu-btn.current { 
@@ -561,6 +563,7 @@ background-color: var(--accent-color)
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
+    transition: box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 .menu-list-btn:not(:last-child) {
     margin-right: 8px;}
